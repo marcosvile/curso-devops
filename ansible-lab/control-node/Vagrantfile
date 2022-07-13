@@ -4,7 +4,7 @@ Vagrant.configure("2") do |config|
   # configuração do SO/distro a ser utilizada
   config.vm.box = "centos/7"
 
-  # configuração no nome (hostname) da vm da aplicação - controlnode
+  # configuração no nome (hostname) da vm do ansible - controlnode
   config.vm.hostname = "control-node"
 
   # configuração do ip local da vm
