@@ -1,0 +1,1 @@
+{"rsync":{"/vagrant":{"type":"rsync","guestpath":"/vagrant","hostpath":"/home/marcos/Documentos/GitHub/curso-devops/ansible-lab/db01","disabled":false,"rsync__exclude":".git/","__vagrantfile":true,"exclude":".git/","owner":"vagrant","group":"vagrant"}}}
