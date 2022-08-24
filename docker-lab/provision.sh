@@ -4,3 +4,4 @@ sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/dock
 sudo yum install docker-ce docker-ce-cli containerd.io docker-compose-plugin -y
 sudo systemctl start docker
 sudo systemctl enable docker 
+docker run hello-world

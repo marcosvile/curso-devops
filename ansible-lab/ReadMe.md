@@ -58,7 +58,7 @@ end
 ~~~
 #! /usr/bin/env bash
 cat << EOT >> /home/vagrant/.ssh/authorized_keys
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCeOhrktMMW8t9E7rqOMMwaYLYJ8wyP30bY0bYOK2yzZE+sdoMY4rcm+L3IYkIOCrT4rDpSRSU1T2FcgeZ9ZnYdhfudV47RwwmTMx/su3AhaxDueBLDQVM5IjzFz0VRM6U5P4fytxnACp8ZCngSSWgVMZAzRla49ns9Ryq8g1+Bol2QSwGSxE69G8sM3d0VndevWZGl9bewqmszS73hXSp+P7O4qlf20ZgMCl1COkWYbd0aTYd9GXPKemUMFG3CcTI86lLiqtHUnVzE7d6XLF129PQLs6xLmWuN78JR9wGnw3k60E/II46R9agZV/XR2ekxyJSNh1X5f0NbaYyO8G29 vagrant@control-node
+ssh-rsa SUA CHAVE SSH AQUI
 EOT
 ~~~
 
@@ -114,7 +114,7 @@ end
 ~~~
 #! /usr/bin/env bash
 cat << EOT >> /home/vagrant/.ssh/authorized_keys
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCeOhrktMMW8t9E7rqOMMwaYLYJ8wyP30bY0bYOK2yzZE+sdoMY4rcm+L3IYkIOCrT4rDpSRSU1T2FcgeZ9ZnYdhfudV47RwwmTMx/su3AhaxDueBLDQVM5IjzFz0VRM6U5P4fytxnACp8ZCngSSWgVMZAzRla49ns9Ryq8g1+Bol2QSwGSxE69G8sM3d0VndevWZGl9bewqmszS73hXSp+P7O4qlf20ZgMCl1COkWYbd0aTYd9GXPKemUMFG3CcTI86lLiqtHUnVzE7d6XLF129PQLs6xLmWuN78JR9wGnw3k60E/II46R9agZV/XR2ekxyJSNh1X5f0NbaYyO8G29 vagrant@control-node
+ssh-rsa SUA CHAVE SSH AQUI
 EOT
 ~~~
 
@@ -174,7 +174,7 @@ end
 ~~~
 #! /usr/bin/env bash
 cat << EOT >> /home/vagrant/.ssh/authorized_keys
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCeOhrktMMW8t9E7rqOMMwaYLYJ8wyP30bY0bYOK2yzZE+sdoMY4rcm+L3IYkIOCrT4rDpSRSU1T2FcgeZ9ZnYdhfudV47RwwmTMx/su3AhaxDueBLDQVM5IjzFz0VRM6U5P4fytxnACp8ZCngSSWgVMZAzRla49ns9Ryq8g1+Bol2QSwGSxE69G8sM3d0VndevWZGl9bewqmszS73hXSp+P7O4qlf20ZgMCl1COkWYbd0aTYd9GXPKemUMFG3CcTI86lLiqtHUnVzE7d6XLF129PQLs6xLmWuN78JR9wGnw3k60E/II46R9agZV/XR2ekxyJSNh1X5f0NbaYyO8G29 vagrant@control-node
+ssh-rsa SUA CHAVE SSH AQUI
 EOT
 ~~~
 

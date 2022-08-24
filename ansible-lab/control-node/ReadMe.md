@@ -10,7 +10,6 @@ Os playbooks são configurados no diretorio principal: /playbooks
 
 ` hosts: ` este é tag de atribuição de qual host (máquina) você vai utilizar
 
-
 ` vars:` tag para descrever variaveis para configurar o bando de dados, onde vai conter o usuario, nome do bando e password
 
 ` usuario: ` este é a tag de dizer qual o usuario irá executar as atividades, atribuindo o root para execução dos scrips.
