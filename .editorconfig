@@ -1,10 +1,32 @@
 root=true
 
+# [*.{sh,yml}]
 [*]
-indent_style = tab
-#indent_size = 4
-tab_width = 4
+indent_style = space
+indent_size = 4
+# tab_width = 4
 charset = utf-8
-insert_final_newline = false
+insert_final_newline = true
 trim_trailing_whitespace = true
+end_of_line = lf
 
+# Matches multiple files with brace expansion notation
+# Set default charset
+[*.{js,py}]
+charset = utf-8
+
+# Indentation override for all JS under lib directory
+[lib/**.js]
+indent_style = space
+indent_size = 2
+
+[*.md]
+trim_trailing_whitespace = false
+
+[*.xml.dist]
+indent_style = spaces
+
+# Matches the exact files either package.json or .travis.yml
+# [{package.json,.travis.yml}]
+# indent_style = space
+# indent_size = 2
