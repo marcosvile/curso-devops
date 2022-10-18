@@ -7,19 +7,9 @@
   vars_files:
     - vars/main.yaml
   vars:
-    - dbname: "db01"
-    - dbusername: "root"
+    - dbname: "notes"
+    - dbusername: "notesapp"
     - dbpassword: "password"
-  tasks:
-    - name: Configurar o hosts lab ansible
-      lineinfile:
-        dest: /etc/hosts
-        state: present
-        line: "{{item}}"
-      with_items:
-        - 192.168.56.2 control-node
-        - 192.168.56.3 app01
-        - 192.168.56.4 db01
   roles:
-   - configuracao-default-so
-   - role: geerlingguy.mysql
+    - configuracao-default-so
+    - role: geerlingguy.mysql
